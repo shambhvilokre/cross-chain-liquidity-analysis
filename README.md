@@ -27,5 +27,9 @@ This repository contains my MSc Finance dissertation project analyzing **cross-c
 ## 🔹 Results
 - Price convergence is faster on L2 chains during arbitrage shocks.  
 - Ethereum often leads in discovery but L2 dominance emerges in high-volatility periods.  
-- LPs rebalance liquidity significantly after arbitrage events.  
+- LPs rebalance liquidity significantly after arbitrage events.
+  
+## 🔹 Author
+Shambhvi Lokre — MSc Finance, Warwick Business School  
+
 
