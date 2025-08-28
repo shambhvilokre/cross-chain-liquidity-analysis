@@ -31,5 +31,36 @@ This repository contains my MSc Finance dissertation project analyzing **cross-c
   
 ## 🔹 Author
 Shambhvi Lokre — MSc Finance, Warwick Business School  
+[LinkedIn](https://linkedin.com/in/shambhvilokre) | [GitHub](https://github.com/shambhvilokre)]
+
+## 🔹 Repository Structure
+/cross-chain-liquidity-analysis
+├─ src/
+│ ├─ main.py # FastAPI GraphQL relay
+│ ├─ csvETH.py # Ethereum data fetcher
+│ ├─ csvARB.py # Arbitrum data fetcher
+│ ├─ csvPOLY.py # Polygon data fetcher
+│ └─ ...
+├─ .env.example # Example environment variables
+├─ requirements.txt # Dependencies
+├─ README.md
+├─ LICENSE
+└─ .gitignore
+
+## 🔹 Setup & Usage
+1. Clone repo and install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+2. Clone repo and install dependencies:
+API_KEY=your_api_key_here
+
+3. Run FastAPI backend:
+uvicorn main:app --reload
+
+4. Fetch data:
+python csvETH.py   # Ethereum
+python csvARB.py   # Arbitrum
+python csvPOLY.py  # Polygon
 
 
